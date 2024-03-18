@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>可展開內容的標題</title>
+<link rel="stylesheet" href="style.css">
+<!-- 引入 Bootstrap Icons 的 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+<style>
+  /* 初始時隱藏內文 */
+  .content {
+    display: none;
+  }
+  /* 样式箭头的颜色 */
+  
+</style>
+<script>
+  // JavaScript 函數，用於切換內文的顯示狀態
+  function toggleContent(targetId, arrowId) {
+    var content = document.getElementById(targetId);
+    var arrowIcon = document.getElementById(arrowId);
+    if (content.style.display === "none") {
+      content.style.display = "block";
+      // 切換箭頭方向
+      arrowIcon.classList.remove("bi-chevron-down");
+      arrowIcon.classList.add("bi-chevron-up");
+    } else {
+      content.style.display = "none";
+      // 切換箭頭方向
+      arrowIcon.classList.remove("bi-chevron-up");
+      arrowIcon.classList.add("bi-chevron-down");
+    }
+  }
+</script>
+</head>
+<body>
+  <header>
+    <a href="#">
+        <!-- <img src="SAUDRA-1.png" alt="123" class="oo"> -->
+        <img src="SAUDSA.jpg" alt="saudsa">
+        
+
+    </a>
+    
+  </header>
+  <!-- 點擊標題時觸發 toggleContent 函數 -->
+  <main>
+    <h1 onclick="toggleContent('content1', 'arrow-icon1')">
+      For Middle East
+      <!-- 使用 Bootstrap Icons 的向下箭頭图标 -->
+      <span id="arrow-icon1" class="bi bi-chevron-down arrow-icon"></span>
+    </h1>
+    <!-- 初始時隱藏，點擊標題後顯示的內文 -->
+    <div id="content1" class="content">
+      <p>這是一串內文。</p>
+      <p>當你點擊標題時，這段內文將顯示出來。</p>
+    </div>
+    <h1 onclick="toggleContent('content2', 'arrow-icon2')">
+      For East Asia
+      <!-- 使用 Bootstrap Icons 的向下箭頭图标 -->
+      <span id="arrow-icon2" class="bi bi-chevron-down arrow-icon"></span>
+    </h1>
+    <!-- 初始時隱藏，點擊標題後顯示的內文 -->
+    <div id="content2" class="content">
+      <p>這是一串內文。</p>
+      <p>當你點擊標題時，這段內文將顯示出來。</p>
+    </div>
+    <h1 onclick="toggleContent('content3', 'arrow-icon3')">
+        1. Incense
+        <!-- 使用 Bootstrap Icons 的向下箭頭图标 -->
+        <span id="arrow-icon3" class="bi bi-chevron-down arrow-icon"></span>
+      </h1>
+      <!-- 初始時隱藏，點擊標題後顯示的內文 -->
+      <div id="content3" class="content">
+        <a href="#">1.1 Cambodian natural agarwood</a>
+        <br>
+        <a href="#">1.2 Cambodian 100% agarwood oil</a>
+        <br>
+        <a href="#">1.1 Cambodian natural agarwood</a>
+      </div>
+      <h1 onclick="toggleContent('content4', 'arrow-icon4')">
+        2. Herbs
+        <!-- 使用 Bootstrap Icons 的向下箭頭图标 -->
+        <span id="arrow-icon4" class="bi bi-chevron-down arrow-icon"></span>
+      </h1>
+      <!-- 初始時隱藏，點擊標題後顯示的內文 -->
+      <div id="content4" class="content">
+        <a href="#">2.1 Agarwood tea</a>
+        <br>
+        <a href="#">2.2 Bird's nest</a>
+        <br>
+        <a href="#">2.3 Cordyceps sinensis</a>
+        <br>
+        <a href="#">2.4 Sichuan clam</a>
+      </div>
+      <h1 onclick="toggleContent('content5', 'arrow-icon5')">
+        3. Taiwan tea
+        <!-- 使用 Bootstrap Icons 的向下箭頭图标 -->
+        <span id="arrow-icon5" class="bi bi-chevron-down arrow-icon"></span>
+      </h1>
+      <!-- 初始時隱藏，點擊標題後顯示的內文 -->
+      <div id="content5" class="content">
+        <a href="#">3.1 High mountain tea - Taiwan Green</a>
+        <br>
+        <a href="#">3.2 Hung Yu - Taiwan black</a>
+        
+      </div>
+      <img src="未命名.png" alt="11" class="special-img">
+  </main>
+  
+  <footer>
+    <h1>Contact</h1>
+    <p>Mail:</p>
+    <p>FB:</p>
+    <a href="#">
+        <img src="下載.png" alt="fbb">
+    </a>
+    <p>Address:No. 200, Xinsheng Rd., Yuanlin City, Taiwan(R.O.C)</p>
+    <p>phone:855-86535565 886-930093407</p>
+    <p>WHATSAPP:855-81247027</p>
+  </footer>
+</body>
+</html>

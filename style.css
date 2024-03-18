@@ -1,0 +1,168 @@
+@media only screen and (min-width: 1051px){
+    header{
+        height:10vh;
+        background-color: #1d1d1b;
+        
+    }
+    body{
+        background-color: #1d1d1b;
+    }
+    /* 样式箭头的颜色 */
+    .arrow-icon1 {
+        color: white;
+    }
+  
+  /* 箭头向下的样式 */
+   
+  
+    main p,h1,a{
+        color:black;
+    }
+    header img{
+        height:10vh;
+        width: auto;
+    }
+    main h1{
+        font-size: 2vw;
+    }
+    #content3 a {
+        font-size: 1.5vw;
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: none; /* 移除下划线 */
+    }
+    #content3 a:hover {
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: underline; /* 移除下划线 */
+    }
+    #content4 a {
+        font-size: 1.5vw;
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: none; /* 移除下划线 */
+    }
+    #content4 a:hover {
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: underline; /* 移除下划线 */
+    }
+    #content5 a {
+        font-size: 1.5vw;
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: none; /* 移除下划线 */
+    }
+    #content5 a:hover {
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: underline; /* 移除下划线 */
+    }
+    main{
+        background-color: white;
+    }
+    footer{
+        background-color: #1d1d1b;
+    }
+    footer h1{
+        color:white;
+    }
+    footer p{
+        font-size: 1.5vw;
+        white-space: nowrap;
+        color:white;
+    }
+    footer img{
+        height:10vh;
+        width: auto;
+    }
+    .special-img{
+        height:20vh;
+    }
+    main{
+        height:auto;
+    }  
+
+
+}
+@media only screen and (max-width: 1051px){
+    header{
+        height:10vh;
+        background-color: #1d1d1b;
+        
+    }
+    body{
+        background-color: #1d1d1b;
+    }
+    /* 样式箭头的颜色 */
+    .arrow-icon1 {
+        color: white;
+    }
+  
+  /* 箭头向下的样式 */
+   
+  
+    main p,h1,a{
+        color:black;
+    }
+    header img{
+        height:10vh;
+        width: auto;
+        
+    }
+    header{
+        text-align: center;
+    }
+    main h1{
+        font-size: 5vw;
+    }
+    #content3 a {
+        font-size: 4vw;
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: none; /* 移除下划线 */
+    }
+    #content3 a:hover {
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: underline; /* 移除下划线 */
+    }
+    #content4 a {
+        font-size: 4vw;
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: none; /* 移除下划线 */
+    }
+    #content4 a:hover {
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: underline; /* 移除下划线 */
+    }
+    #content5 a {
+        font-size: 4vw;
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: none; /* 移除下划线 */
+    }
+    #content5 a:hover {
+        color: orange; /* 设置超链接的颜色 */
+        text-decoration: underline; /* 移除下划线 */
+    }
+    main{
+        background-color: white;
+    }
+    footer{
+        background-color: #1d1d1b;
+    }
+    footer h1{
+        color:white;
+        font-size: 5vw;
+    }
+    footer p{
+        font-size: 3vw;
+        white-space: nowrap;
+        color:white;
+    }
+    footer img{
+        height:10vh;
+        width: auto;
+    }
+    .special-img{
+        height:10vh;
+    }
+    main{
+        height:auto;
+    }  
+
+    
+
+}
